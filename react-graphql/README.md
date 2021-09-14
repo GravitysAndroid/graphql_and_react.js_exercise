@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Building a GraphQL Project with React.js
+This is the repository for the LinkedIn Learning course Building a GraphQL Project with React.js. The full course is available from [LinkedIn Learning][lil-course-url].
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Building a GraphQL Project with React.js][lil-thumbnail-url] 
+Are you a web developer creating apps? GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser. In this course, instructor Ray Villalobos teaches you how to assemble these parts, using the familiar structure of GitHub as a source for information. Ray first walks you through installing React, including how to use the command-line interface (CLI), as well as how to customize and add the node modules you will need for this project. He explores what you can do with the GitHub API using GraphiQL, then shows you how to retrieve data, generate a query component, and more. Ray goes over each step in building the React app, concluding with how to create the pagination interface.
 
-## Available Scripts
+## Instructions
+This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-In the project directory, you can run:
+## Branches
+The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
+Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
 
-### `npm start`
+When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    error: Your local changes to the following files would be overwritten by checkout:        [files]
+    Please commit your changes or stash them before you switch branches.
+    Aborting
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To resolve this issue:
+	
+    Add changes to git using this command: git add .
+	Commit changes using this command: git commit -m "some message"
 
-### `npm test`
+## Installing
+1. To use these exercise files, you must have the following installed:
+	- [Node.js](https://nodejs.org/)
+	- [Git](https://git-scm.com/)
+2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+3. Watch the `Using the Exercises for this course` video for further instructions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instructor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Ray Villalobos**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Senior Staff Instructor at LinkedIn Learning_
 
-### `npm run eject`
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos?u=104).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
