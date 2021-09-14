@@ -4,6 +4,7 @@ const githubQuery = (
 	paginationKeyword,
 	paginationString
 ) => {
+	//Getting all of the data required via GraphQL query
 	return {
 		query: `
     {

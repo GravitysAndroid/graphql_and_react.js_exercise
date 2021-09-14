@@ -1,4 +1,5 @@
 const github = {
+	//Setting the various required variables for getting the data from GitHub
 	baseURL: 'https://api.github.com/graphql',
 	username: 'gravitysandroid',
 	headers: {
